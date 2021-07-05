@@ -15,7 +15,9 @@ function Navbar() {
   };
   return (
     <nav>
-      <img src="images/logo.svg" alt="Logo" onClick={handleHomeClick} />
+      <div className="logo" onClick={handleHomeClick}>
+        <img className="home-svg" src="images/logo.svg" alt="illustration" />
+      </div>
       <ul className="nav-links">
         <Link style={NavLinkStyle} to="/">
           <li>Home</li>
