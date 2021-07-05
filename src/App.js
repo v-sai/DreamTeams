@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
-import Home from "./components/Home/Home";
-import Login from "./components/authentication/Login";
-import Navbar from "./components/Navbar/Navbar";
-import Matches from "./components/Matches/Matches";
+import Home from "./components/user/Home/Home";
+import Login from "./components/user/authentication/Login";
+import Navbar from "./components/user/Navbar/Navbar";
+import Matches from "./components/user/Matches/Matches";
 // import Players from "./components/Players/Players";
-import Teams from "./components/Teams/Teams";
+import Teams from "./components/user/Teams/Teams";
 
 function App() {
   return (

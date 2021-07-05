@@ -47,16 +47,21 @@ function Teams(props) {
       }
     };
 
-    // console.log(i);
     return (
       <div key={i} className="team">
-        {team.map((player) => {
-          return (
-            <div style={applyStyle(player.role)} key={player._id}>
-              {player.name}
-            </div>
-          );
-        })}
+        <p style={{ color: "#532054" }}>{i + 1}</p>
+        <p style={applyStyle(team[0].role)}>{team[0].name}</p>
+        <p style={applyStyle(team[1].role)}>{team[1].name}</p>
+        <p style={applyStyle(team[2].role)}>{team[2].name}</p>
+        <p style={applyStyle(team[3].role)}>{team[3].name}</p>
+        <p style={applyStyle(team[4].role)}>{team[4].name}</p>
+        <p style={applyStyle(team[5].role)}>{team[5].name}</p>
+        <p style={applyStyle(team[6].role)}>{team[6].name}</p>
+        <p style={applyStyle(team[7].role)}>{team[7].name}</p>
+        <p style={applyStyle(team[8].role)}>{team[8].name}</p>
+        <p style={applyStyle(team[9].role)}>{team[9].name}</p>
+        <p style={applyStyle(team[10].role)}>{team[10].name}</p>
+        <p style={{ color: "#4c2a7c" }}>{team[11]}</p>
       </div>
     );
   });
