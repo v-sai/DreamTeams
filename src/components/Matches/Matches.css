@@ -1,0 +1,38 @@
+.match-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 25%;
+    background-color: #FF634E;
+    padding: 1% 5%;
+    border-radius: 25px;
+}
+
+.match-card p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #5C5C5C;
+    background-color: inherit;
+}
+
+.match{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: inherit;
+}
+
+.match h2{
+    font-size: 42px;
+    font-weight:800;
+    color: #2E2E2E;
+    background-color: inherit;
+    text-transform: uppercase;
+}
+
+.match p{
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+}
